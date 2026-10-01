@@ -91,6 +91,3 @@ nav:
 
   - Hardisk:
       - Overview: hardisk/index.md
-      - Server: infrastructure/server.md
-      - Network: infrastructure/network.md
-      - CCTV: infrastructure/cctv.md
