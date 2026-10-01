@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% macro render_nav_item(item) -%}
+    {% if item.children %}
+        <li class="kb-nav-group">
+            <span class="kb-nav-heading">{{ item.title }}</span>
+            <ul class="nav flex-column kb-nav-children">
+                {% for child in item.children %}
+                    {{ render_nav_item(child) }}
+                {% endfor %}
+            </ul>
+        </li>
+    {% else %}
+        <li class="nav-item">
+            <a href="{{ item.url|url }}" class="nav-link{% if item.active %} active{% endif %}"{% if item.active %} aria-current="page"{% endif %}>
+                {{ item.title }}
+            </a>
+        </li>
+    {% endif %}
+{%- endmacro %}
+
+{% block site_name %}
+    <button class="btn btn-outline-light d-md-none kb-sidebar-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#kbSidebar" aria-controls="kbSidebar" aria-label="Buka navigasi">
+        <span class="fa-solid fa-bars" aria-hidden="true"></span>
+    </button>
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{{ nav.homepage.url|url }}">
+        <span class="kb-brand-mark" aria-hidden="true">IT</span>
+        <span>{{ config.site_name }}</span>
+    </a>
+    <button class="btn btn-outline-light ms-auto kb-search-toggle" type="button" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal" aria-label="Cari panduan">
+        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+        <span class="d-none d-sm-inline">Cari panduan</span>
+    </button>
+{% endblock %}
+
+{% block site_nav %}{% endblock %}
+{% block search_button %}{% endblock %}
+{% block next_prev %}{% endblock %}
+{% block repo %}{% endblock %}
+{% block footer %}{% endblock %}
+
+{% block content %}
+    <div class="container-fluid kb-layout">
+        <div class="row g-0">
+            <aside class="offcanvas-md offcanvas-start kb-sidebar" tabindex="-1" id="kbSidebar" aria-labelledby="kbSidebarLabel">
+                <div class="offcanvas-header kb-sidebar-header">
+                    <h2 class="offcanvas-title" id="kbSidebarLabel">{{ config.site_name }}</h2>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#kbSidebar" aria-label="Tutup navigasi"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column">
+                    <nav aria-label="Navigasi dokumentasi">
+                        <ul class="nav flex-column kb-nav">
+                            {% for item in nav %}
+                                {{ render_nav_item(item) }}
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <main class="kb-main" role="main">
+                <article class="kb-article">
+                    {% include "content.html" %}
+                </article>
+                <footer class="kb-footer">
+                    {% if config.copyright %}<p class="mb-1">{{ config.copyright }}</p>{% endif %}
+                    <p class="mb-0">Dokumentasi IT {{ config.site_name }}</p>
+                </footer>
+            </main>
+        </div>
+    </div>
+{% endblock %}

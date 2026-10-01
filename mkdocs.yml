@@ -4,49 +4,12 @@ site_description: IT Documentation & Knowledge Base
 site_author:  IT Department
 
 theme:
-  name: material
-  language: id
-
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-
-    - search.suggest
-    - search.highlight
-    - search.share
-
-    - content.code.copy
-    - content.code.annotate
-
-    - toc.follow
-
-  palette:
-
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Dark mode
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Light mode
-
-  font:
-    text: Inter
-    code: Roboto Mono
-
-  icon:
-    logo: material/school
+  name: mkdocs
+  custom_dir: overrides
+  locale: id
+  nav_style: dark
+  color_mode: auto
+  user_color_mode_toggle: true
 
 markdown_extensions:
 
@@ -84,8 +47,8 @@ nav:
 
   - Home: index.md
 
-  - Getting Started:
-      - Introduction: getting-started/index.md
+  # - Getting Started:
+  #     - Introduction: getting-started/index.md
 
   - Hardisk:
       - Overview: hardisk/index.md

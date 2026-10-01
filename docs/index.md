@@ -8,22 +8,29 @@
 
 Panduan singkat untuk membantu Anda menggunakan perangkat dan layanan IT di lingkungan sekolah. Pilih topik yang dibutuhkan atau gunakan pencarian di bagian atas.
 
-[Jelajahi panduan](hardisk/index.md){ .md-button .md-button--primary }
+[Jelajahi panduan](hardisk/index.md){ .btn .btn-primary }
 
 </div>
 
 ## Panduan tersedia
 
-<div class="grid cards" markdown>
+<div class="row g-3" markdown>
 
--   **Hard disk dan penyimpanan**
+<div class="col-12 col-lg-6" markdown>
 
-    ---
+<div class="card kb-topic-card" markdown>
 
-    Kenali HDD dan SSD, periksa ruang penyimpanan, dan pelajari langkah awal yang aman saat drive bermasalah.
+<div class="card-body" markdown>
 
-    [Buka panduan](hardisk/index.md)
+### Hard disk dan penyimpanan
 
+Kenali HDD dan SSD, periksa ruang penyimpanan, dan pelajari langkah awal yang aman saat drive bermasalah.
+
+[Buka panduan](hardisk/index.md){ .btn .btn-outline-primary }
+
+</div>
+</div>
+</div>
 </div>
 
 !!! question "Butuh bantuan lebih lanjut?"
