@@ -1,0 +1,109 @@
+:root {
+    --unity-radius: 14px;
+}
+
+/* Main content */
+
+.md-content {
+    max-width: 100%;
+}
+
+/* Cards */
+
+.md-typeset .grid.cards > ul > li {
+    border-radius: var(--unity-radius);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.10);
+}
+
+/* Card icons */
+
+.md-typeset .grid.cards .lg {
+    font-size: 2rem;
+}
+
+/* Headings */
+
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+    font-weight: 650;
+}
+
+/* Code */
+
+.md-typeset code {
+    border-radius: 6px;
+}
+
+/* Code block */
+
+.md-typeset pre {
+    border-radius: 12px;
+}
+
+/* Admonition */
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 12px;
+}
+
+/* Tables */
+
+.md-typeset table:not([class]) {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Search */
+
+.md-search__form {
+    border-radius: 10px;
+}
+
+/* Sidebar */
+
+.md-sidebar {
+    scrollbar-width: thin;
+}
+
+/* Navigation */
+
+.md-nav__link {
+    border-radius: 6px;
+}
+
+/* Smooth transition */
+
+.md-nav__link,
+.md-typeset a,
+.md-header {
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+    .md-typeset h1 {
+        font-size: 1.8rem;
+    }
+
+    .md-typeset h2 {
+        font-size: 1.4rem;
+    }
+
+}

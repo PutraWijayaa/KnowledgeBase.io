@@ -1,0 +1,96 @@
+site_name: IT Knowledge Base
+site_url: https://it.unity.sch.id
+site_description: IT Documentation & Knowledge Base
+site_author:  IT Department
+
+theme:
+  name: material
+  language: id
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.code.annotate
+
+    - toc.follow
+
+  palette:
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+  font:
+    text: Inter
+    code: Roboto Mono
+
+  icon:
+    logo: material/school
+
+markdown_extensions:
+
+  - admonition
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - attr_list
+
+  - md_in_html
+
+  - toc:
+      permalink: true
+
+plugins:
+
+  - search:
+      lang:
+        - id
+        - en
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+
+  - Home: index.md
+
+  - Getting Started:
+      - Introduction: getting-started/index.md
+      - IT Overview: getting-started/it-overview.md
+
+  - Hardisk:
+      - Overview: hardisk/index.md
+      - Server: infrastructure/server.md
+      - Network: infrastructure/network.md
+      - CCTV: infrastructure/cctv.md
