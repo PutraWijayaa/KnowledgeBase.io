@@ -27,10 +27,40 @@
         <span class="kb-brand-mark" aria-hidden="true">IT</span>
         <span>{{ config.site_name }}</span>
     </a>
-    <button class="btn btn-outline-light ms-auto kb-search-toggle" type="button" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal" aria-label="Cari panduan">
-        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
-        <span class="d-none d-sm-inline">Cari panduan</span>
-    </button>
+    <div class="d-flex align-items-center gap-2 ms-auto">
+        <button class="btn btn-outline-light kb-search-toggle" type="button" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal" aria-label="Cari panduan">
+            <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+            <span class="d-none d-sm-inline">Cari panduan</span>
+        </button>
+        <div class="dropdown">
+            <button id="theme-menu" class="btn btn-outline-light kb-theme-toggle dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-label="Pilih tema">
+                <span class="fa-solid fa-circle-half-stroke" aria-hidden="true"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="theme-menu">
+                <li>
+                    <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="{% if config.theme.color_mode == 'light' %}true{% else %}false{% endif %}">
+                        <span class="fa-solid fa-sun fa-fw" aria-hidden="true"></span>
+                        <span class="ms-2">Terang</span>
+                        <span class="fa-solid fa-check ms-auto{% if config.theme.color_mode != 'light' %} d-none{% endif %}" aria-hidden="true"></span>
+                    </button>
+                </li>
+                <li>
+                    <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="{% if config.theme.color_mode == 'dark' %}true{% else %}false{% endif %}">
+                        <span class="fa-solid fa-moon fa-fw" aria-hidden="true"></span>
+                        <span class="ms-2">Gelap</span>
+                        <span class="fa-solid fa-check ms-auto{% if config.theme.color_mode != 'dark' %} d-none{% endif %}" aria-hidden="true"></span>
+                    </button>
+                </li>
+                <li>
+                    <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="{% if config.theme.color_mode == 'auto' %}true{% else %}false{% endif %}">
+                        <span class="fa-solid fa-circle-half-stroke fa-fw" aria-hidden="true"></span>
+                        <span class="ms-2">Otomatis</span>
+                        <span class="fa-solid fa-check ms-auto{% if config.theme.color_mode != 'auto' %} d-none{% endif %}" aria-hidden="true"></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
 {% endblock %}
 
 {% block site_nav %}{% endblock %}
@@ -64,7 +94,7 @@
                 </article>
                 <footer class="kb-footer">
                     {% if config.copyright %}<p class="mb-1">{{ config.copyright }}</p>{% endif %}
-                    <p class="mb-0">Dokumentasi IT {{ config.site_name }}</p>
+                    <p class="mb-0">Unity School · Pusat Panduan Teknologi</p>
                 </footer>
             </main>
         </div>

@@ -9,7 +9,7 @@ theme:
   locale: id
   nav_style: dark
   color_mode: auto
-  user_color_mode_toggle: true
+  user_color_mode_toggle: false
 
 markdown_extensions:
 
@@ -51,4 +51,4 @@ nav:
   #     - Introduction: getting-started/index.md
 
   - Hardisk:
-      - Fix Hardisk Issue: hardisk/index.md
+      - Hard Disk dan Penyimpanan: hardisk/index.md
