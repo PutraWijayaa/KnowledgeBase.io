@@ -1,11 +1,25 @@
 :root {
     --kb-header-height: 4.25rem;
     --kb-radius: 0.9rem;
-    --kb-sidebar-bg: #111b25;
-    --kb-sidebar-muted: #a7b4c2;
-    --kb-sidebar-active: #1d3446;
+    --kb-sidebar-bg: #f1f5f8;
+    --kb-sidebar-text: #263746;
+    --kb-sidebar-muted: #526579;
+    --kb-sidebar-hover: #e5edf2;
+    --kb-sidebar-active: #dcefe9;
+    --kb-sidebar-active-text: #075e4e;
+    --kb-sidebar-border: #d7e0e7;
     --bs-primary: #168b78;
     --bs-primary-rgb: 22, 139, 120;
+}
+
+:root[data-bs-theme="dark"] {
+    --kb-sidebar-bg: #111b25;
+    --kb-sidebar-text: #d6e0e8;
+    --kb-sidebar-muted: #a7b4c2;
+    --kb-sidebar-hover: rgb(255 255 255 / 7%);
+    --kb-sidebar-active: #1d3446;
+    --kb-sidebar-active-text: #75ddc4;
+    --kb-sidebar-border: rgb(255 255 255 / 12%);
 }
 
 body {
@@ -97,8 +111,8 @@ body > footer {
     top: 0;
     height: calc(100vh - var(--kb-header-height));
     overflow-y: auto;
-    background: var(--kb-sidebar-bg);
-    color: #f0f4f8;
+    background-color: var(--kb-sidebar-bg) !important;
+    color: var(--kb-sidebar-text);
     scrollbar-color: #526171 transparent;
     scrollbar-width: thin;
 }
@@ -133,21 +147,21 @@ body > footer {
     margin: 0.15rem 0;
     padding: 0.65rem 0.75rem;
     border-radius: 0.65rem;
-    color: #d6e0e8;
+    color: var(--kb-sidebar-text);
     line-height: 1.4;
     transition: color 0.16s ease, background-color 0.16s ease;
 }
 
 .kb-nav .nav-link:hover,
 .kb-nav .nav-link:focus-visible {
-    background: rgb(255 255 255 / 7%);
-    color: white;
+    background: var(--kb-sidebar-hover);
+    color: var(--kb-sidebar-text);
 }
 
 .kb-nav .nav-link.active,
 .kb-nav .nav-link[aria-current="page"] {
     background: var(--kb-sidebar-active);
-    color: #75ddc4;
+    color: var(--kb-sidebar-active-text);
     font-weight: 650;
 }
 
@@ -349,13 +363,17 @@ details {
 
     .kb-sidebar-header {
         min-height: var(--kb-header-height);
-        border-bottom: 1px solid rgb(255 255 255 / 12%);
+        border-bottom: 1px solid var(--kb-sidebar-border);
     }
 
     .kb-sidebar-header .offcanvas-title {
         margin: 0;
         font-size: 1rem;
         font-weight: 700;
+    }
+
+    :root[data-bs-theme="light"] .kb-sidebar-header .btn-close-white {
+        filter: none;
     }
 
     .kb-main {
