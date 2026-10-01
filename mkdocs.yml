@@ -1,7 +1,7 @@
-site_name: IT Knowledge Base
+site_name: Knowledge Based
 site_url: https://it.unity.sch.id
-site_description: IT Documentation & Knowledge Base
-site_author:  IT Department
+site_description: Knowledge Base
+site_author:  Tim
 
 theme:
   name: mkdocs
@@ -52,3 +52,10 @@ nav:
 
   - Hardisk:
       - Hard Disk dan Penyimpanan: hardisk/index.md
+
+  - Windows:
+      - Memasang Driver yang Hilang: drivers/index.md
+
+  - Jaringan:
+      - Internet LAN Tidak Muncul: network/lan-internet/index.md
+      - Troubleshooting Internet Kabel LAN: network/troubleshooting-lan/index.md

@@ -1,5 +1,4 @@
 :root {
-    --kb-sidebar-width: 17rem;
     --kb-header-height: 4.25rem;
     --kb-radius: 0.9rem;
     --kb-sidebar-bg: #111b25;
@@ -86,7 +85,6 @@ body > footer {
     inset: var(--kb-header-height) 0 0;
     /* Keep the sidebar above Bootstrap's offcanvas backdrop. */
     z-index: 1041;
-    padding: 0;
     overflow-y: auto;
 }
 
@@ -97,8 +95,6 @@ body > footer {
 .kb-sidebar {
     position: sticky;
     top: 0;
-    flex: 0 0 var(--kb-sidebar-width);
-    width: var(--kb-sidebar-width);
     height: calc(100vh - var(--kb-header-height));
     overflow-y: auto;
     background: var(--kb-sidebar-bg);
@@ -162,7 +158,6 @@ body > footer {
 .kb-main {
     display: flex;
     min-width: 0;
-    flex: 1 1 0;
     flex-direction: column;
 }
 
@@ -170,8 +165,8 @@ body > footer {
     width: 100%;
     max-width: 76rem;
     flex: 1 0 auto;
-    margin: 0 auto;
-    padding: clamp(1.5rem, 4vw, 3.25rem);
+    margin: 0;
+    padding: 1.5rem 0;
 }
 
 .kb-article h1 {
@@ -319,6 +314,11 @@ details {
     text-align: center;
 }
 
+.kb-article .image-card img {
+    display: block;
+    margin: 0;
+}
+
 .kb-footer {
     padding: 1.25rem clamp(1.5rem, 4vw, 3.25rem);
     border-top: 1px solid var(--bs-border-color);
@@ -363,7 +363,7 @@ details {
     }
 
     .kb-article {
-        padding: 1.5rem 1rem 2rem;
+        padding: 1.5rem 0 2rem;
     }
 
     .kb-article table {

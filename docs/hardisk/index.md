@@ -1,6 +1,6 @@
-# Hard Disk dan Penyimpanan
-
-Hard disk adalah media penyimpanan untuk menyimpan sistem operasi, aplikasi, dan file seperti dokumen, foto, serta video. Data di dalamnya tetap tersimpan meskipun komputer dimatikan. Jika penyimpanan penuh atau mengalami kerusakan, komputer dapat menjadi lambat, gagal menyimpan file, atau tidak dapat menyala dengan normal.
+<div class="image-card">
+    <img src="../assets/images/hardisk/hardisk.png" alt="Infografik pemeriksaan disk melalui skrip CHKDSK dan restart otomatis di Windows">
+</div>
 
 ## Jenis Penyimpanan
 
@@ -62,11 +62,3 @@ Infografik menunjukkan penggunaan alat pemeriksaan disk bawaan Windows, **CHKDSK
 - Karena perintah pada gambar menyebut **`C:`**, pemeriksaan tersebut ditujukan ke drive `C:` saja, bukan otomatis ke semua drive.
 
 CHKDSK memeriksa sistem file dan keterbacaan sektor; CHKDSK **tidak memperbaiki kerusakan fisik HDD/SSD**, tidak menjamin semua file dapat dipulihkan, dan tidak otomatis membuat komputer lebih cepat. Waktu “30 detik”, klaim memperbaiki banyak masalah, serta klaim “menjaga data tetap aman” pada infografik bukan jaminan hasil.
-
-!!! warning "Perangkat sekolah"
-    **Jangan membuat atau menjalankan skrip pada gambar tanpa persetujuan tim IT.** Restart otomatis dapat mengganggu pekerjaan yang belum disimpan, pemeriksaan `/r` dapat berlangsung lama, dan pemeriksaan/perbaikan disk memiliki risiko terhadap data pada drive yang sudah bermasalah. Hubungi tim IT agar kondisi drive dan pencadangan diperiksa terlebih dahulu.
-
-<div class="image-card">
-    <img src="../assets/images/hardisk/hardisk.png" alt="Infografik pemeriksaan disk melalui skrip CHKDSK dan restart otomatis di Windows">
-</div>
-

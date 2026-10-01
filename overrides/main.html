@@ -71,8 +71,8 @@
 
 {% block content %}
     <div class="container-fluid kb-layout">
-        <div class="row g-0">
-            <aside class="offcanvas-md offcanvas-start kb-sidebar" tabindex="-1" id="kbSidebar" aria-labelledby="kbSidebarLabel">
+        <div class="row">
+            <aside class="col-md-3 offcanvas-md offcanvas-start kb-sidebar" tabindex="-1" id="kbSidebar" aria-labelledby="kbSidebarLabel">
                 <div class="offcanvas-header kb-sidebar-header">
                     <h2 class="offcanvas-title" id="kbSidebarLabel">{{ config.site_name }}</h2>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" data-bs-target="#kbSidebar" aria-label="Tutup navigasi"></button>
@@ -88,13 +88,13 @@
                 </div>
             </aside>
 
-            <main class="kb-main" role="main">
+            <main class="col-md-9 kb-main" role="main">
                 <article class="kb-article">
                     {% include "content.html" %}
                 </article>
                 <footer class="kb-footer">
                     {% if config.copyright %}<p class="mb-1">{{ config.copyright }}</p>{% endif %}
-                    <p class="mb-0">Unity School · Pusat Panduan Teknologi</p>
+                    <p class="mb-0">Panduan Teknologi</p>
                 </footer>
             </main>
         </div>
