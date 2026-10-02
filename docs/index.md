@@ -70,6 +70,22 @@ Periksa status printer, kabel USB/LAN, driver, antrean cetak, dan daya. Panduan 
 
 <div class="card-body" markdown>
 
+### Restart Access Point TP-Link
+
+Restart TP-Link TL-WR940N dengan mencabut kabel daya atau menggunakan tombol On/Off, lalu tunggu proses booting selesai.
+
+[Buka panduan](network/restart-tp-link-tl-wr940n/index.md){ .btn .btn-outline-primary }
+
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6" markdown>
+
+<div class="card kb-topic-card" markdown>
+
+<div class="card-body" markdown>
+
 ### Troubleshooting Internet Kabel LAN
 
 Telusuri gangguan dari status koneksi, driver, kabel dan port, hingga pengaturan IP; mulai dari komputer sebelum memeriksa jaringan lainnya.

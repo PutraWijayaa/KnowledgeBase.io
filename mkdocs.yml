@@ -59,6 +59,7 @@ nav:
   - Printer:
       - Komputer Tidak Bisa Print: printer/index.md
 
-  - Jaringan:
+  - Jaringan Internet:
       - Internet LAN Tidak Muncul: network/lan-internet/index.md
       - Troubleshooting Internet Kabel LAN: network/troubleshooting-lan/index.md
+      - Restart TP-Link TL-WR940N: network/restart-tp-link-tl-wr940n/index.md
