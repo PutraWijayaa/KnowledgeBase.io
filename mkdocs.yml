@@ -56,6 +56,9 @@ nav:
   - Windows:
       - Memasang Driver yang Hilang: drivers/index.md
 
+  - Printer:
+      - Komputer Tidak Bisa Print: printer/index.md
+
   - Jaringan:
       - Internet LAN Tidak Muncul: network/lan-internet/index.md
       - Troubleshooting Internet Kabel LAN: network/troubleshooting-lan/index.md
