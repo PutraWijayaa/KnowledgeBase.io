@@ -6,20 +6,6 @@ Restart access point dapat membantu mengatasi koneksi yang bermasalah, jaringan 
     <img src="../../assets/Knowledgebase%20IT/upload/Panduan%20Restart%20TP-Link%20TL-WR940N.png" alt="Contoh cara merestart access point TP-Link TL-WR940N dengan mencabut daya atau menggunakan tombol On/Off">
 </div>
 
-!!! note "Model pada gambar hanya contoh"
-    Gambar menggunakan **TP-Link TL-WR940N (EU)** sebagai contoh. Nama port, posisi tombol, spesifikasi adaptor, indikator, dan alamat administrasi yang tampak pada gambar tidak berlaku untuk semua access point.
-
-!!! warning "Pastikan Anda berwenang"
-    Jika access point melayani jaringan kantor/sekolah atau digunakan banyak orang, beri tahu administrator/tim IT dan pastikan restart tidak mengganggu pekerjaan penting. Jangan menekan tombol **Reset** atau lubang bertanda **Reset** untuk merestart karena tindakan tersebut dapat menghapus konfigurasi. Tombol WPS juga bukan tombol restart.
-
-## Sebelum mulai
-
-1. Pastikan perangkat yang akan direstart adalah access point yang benar. Periksa label merek dan model pada perangkat.
-2. Beri tahu pengguna lain jika restart dapat memutus koneksi mereka.
-3. Cari panduan resmi untuk model perangkat jika tidak yakin bagaimana mematikan dayanya. Access point dapat menggunakan adaptor daya, kabel daya, atau **Power over Ethernet (PoE)** melalui kabel jaringan.
-4. Jangan mencabut kabel LAN/WAN atau kabel jaringan PoE untuk merestart kecuali panduan perangkat atau administrator menginstruksikannya. Kabel tersebut mungkin diperlukan untuk koneksi atau catu daya.
-5. Jika perangkat atau adaptor terasa sangat panas, berbau terbakar, mengeluarkan bunyi tidak normal, atau kabelnya rusak, jangan lanjutkan. Putuskan daya dengan aman dan hubungi teknisi.
-
 ## Metode 1: Restart dengan mencabut kabel daya
 
 Gunakan cara ini jika produsen mengizinkan perangkat dimatikan dengan melepas sumber dayanya. Ini adalah cara yang ditunjukkan pada gambar untuk model contoh.
@@ -73,8 +59,7 @@ Lampu yang menyala tidak selalu berarti koneksi internet sudah tersedia. Periksa
 1. Pastikan access point sudah selesai booting dan sumber daya serta kabel jaringan terpasang sesuai label dan panduan modelnya.
 2. Periksa indikator yang tersedia dan cocokkan artinya dengan panduan resmi perangkat.
 3. Coba sambungkan kembali perangkat pengguna ke Wi-Fi.
-4. Jika Anda administrator dan berwenang mengelola perangkat, gunakan alamat administrasi dan prosedur login yang ditetapkan untuk model serta jaringan tersebut. Alamat **http://192.168.0.1** hanya contoh yang ditampilkan pada gambar; alamat sebenarnya dapat berbeda atau sudah diubah.
-5. Jangan mengubah konfigurasi Wi-Fi, WAN, DHCP, atau pengaturan lain tanpa mengetahui nilai yang benar. Jangan membagikan kata sandi administrator.
-6. Jika jaringan tetap tidak berfungsi atau lampu indikator menunjukkan masalah, catat kondisi indikator dan hubungi administrator jaringan atau tim IT.
+4. Jangan mengubah konfigurasi Wi-Fi, WAN, DHCP, atau pengaturan lain tanpa mengetahui nilai yang benar. Jangan membagikan kata sandi administrator.
+5. Jika jaringan tetap tidak berfungsi atau lampu indikator menunjukkan masalah, catat kondisi indikator dan hubungi administrator jaringan atau tim IT.
 
 **Jangan melakukan factory reset** kecuali diarahkan oleh administrator/teknisi dan konfigurasi perangkat sudah dicadangkan atau tersedia untuk dipasang kembali. Factory reset berbeda dari restart dan dapat menghapus pengaturan jaringan.

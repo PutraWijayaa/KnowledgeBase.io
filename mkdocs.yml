@@ -55,6 +55,7 @@ nav:
 
   - Windows:
       - Memasang Driver yang Hilang: drivers/index.md
+      - Troubleshooting Proyektor: projector/index.md
 
   - Printer:
       - Komputer Tidak Bisa Print: printer/index.md

@@ -54,6 +54,22 @@ Atasi perangkat yang tidak terdeteksi dengan Device Manager, Windows Update, Har
 
 <div class="card-body" markdown>
 
+### Troubleshooting proyektor
+
+Atasi proyektor yang tidak tampil atau tidak terdeteksi dengan memeriksa mode layar, resolusi, display adapter, dan koneksi dari sisi komputer Windows.
+
+[Buka panduan](projector/index.md){ .btn .btn-outline-primary }
+
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6" markdown>
+
+<div class="card kb-topic-card" markdown>
+
+<div class="card-body" markdown>
+
 ### Printer tidak bisa mencetak
 
 Periksa status printer, kabel USB/LAN, driver, antrean cetak, dan daya. Panduan juga mencakup langkah khusus kabel daya Epson L121/L120.
