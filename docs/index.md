@@ -70,9 +70,9 @@ Periksa status printer, kabel USB/LAN, driver, antrean cetak, dan daya. Panduan 
 
 <div class="card-body" markdown>
 
-### Restart Access Point TP-Link
+### Restart Access Point
 
-Restart TP-Link TL-WR940N dengan mencabut kabel daya atau menggunakan tombol On/Off, lalu tunggu proses booting selesai.
+Panduan umum merestart berbagai tipe access point dengan memutus daya atau menggunakan tombol On/Off jika tersedia. Model TP-Link pada gambar hanya contoh.
 
 [Buka panduan](network/restart-tp-link-tl-wr940n/index.md){ .btn .btn-outline-primary }
 

@@ -94,7 +94,7 @@ Jika printer menyala tetapi tetap tidak mau mencetak:
 
 1. Batalkan pekerjaan cetak yang macet melalui antrean cetak.
 2. Matikan printer dan cabut kabel daya dari stopkontak.
-3. Tunggu sekitar **1–2 menit**.
+3. Tunggu sekitar **1 - 2 menit**.
 4. Pasang kembali kabel daya, nyalakan printer, dan tunggu sampai siap.
 5. Kirim satu dokumen uji.
 6. Jika masih gagal, bila tersedia dan diizinkan, coba cetak dari komputer lain yang sudah terhubung ke printer.
@@ -118,15 +118,3 @@ Jika komputer lain dapat mencetak, masalah mungkin berada pada komputer awal ata
 - Letakkan printer di tempat yang kering dan stabil.
 - Pastikan kertas dan tinta/cartridge sesuai dengan petunjuk produsen.
 - Jangan memutus daya saat printer sedang bekerja kecuali diperlukan untuk mengatasi masalah.
-
-## Kapan harus menghubungi tim IT atau teknisi?
-
-Minta bantuan jika printer tetap gagal setelah langkah di atas, lampu daya tidak menyala, kabel atau port tampak rusak, driver tidak dapat dipasang, atau printer meminta hak administrator. Sertakan:
-
-- merek dan model printer;
-- jenis koneksi yang digunakan (USB atau LAN);
-- status lampu dan pesan kesalahan;
-- apakah printer menyala dan terdeteksi di komputer;
-- langkah yang sudah dicoba serta hasilnya.
-
-Pastikan semua koneksi, driver, dan pengaturan sudah benar sebelum meminta pemeriksaan teknisi.

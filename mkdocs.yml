@@ -62,4 +62,4 @@ nav:
   - Jaringan Internet:
       - Internet LAN Tidak Muncul: network/lan-internet/index.md
       - Troubleshooting Internet Kabel LAN: network/troubleshooting-lan/index.md
-      - Restart TP-Link TL-WR940N: network/restart-tp-link-tl-wr940n/index.md
+      - Cara Merestart Access Point: network/restart-tp-link-tl-wr940n/index.md
