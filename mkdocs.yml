@@ -62,6 +62,7 @@ nav:
 
   - Printer:
       - Komputer Tidak Bisa Print: printer/index.md
+      - Mengatasi Lampu Printer Berkedip: printer/blinking/index.md
 
   - Jaringan Internet:
       - Internet LAN Tidak Muncul: network/lan-internet/index.md

@@ -2,6 +2,8 @@
 
 Jika komputer tidak dapat mencetak, periksa printer dan koneksinya terlebih dahulu. Ikuti langkah berikut secara berurutan dan coba mencetak lagi setelah setiap pemeriksaan. Jika printer sudah berfungsi, tidak perlu melanjutkan ke langkah berikutnya.
 
+Jika lampu indikator printer berkedip, gunakan juga panduan khusus [mengatasi lampu printer Epson dan Canon berkedip](blinking/index.md).
+
 <div class="image-card">
     <img src="../assets/Knowledgebase%20IT/upload/Panduan%20Mengatasi%20Printer%20Tidak%20Bisa%20Print.png" alt="Infografik tujuh langkah mengatasi printer yang tidak bisa mencetak, termasuk pemeriksaan status, kabel, driver, pengaturan, daya, reset, dan bantuan teknisi">
 </div>
