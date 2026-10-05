@@ -52,9 +52,11 @@ nav:
 
   - Hardisk:
       - Hard Disk dan Penyimpanan: hardisk/index.md
+      - BIOS Tidak Mendeteksi Hard Drive: hardisk/bios-not-detecting-drive/index.md
 
   - Windows:
       - Memasang Driver yang Hilang: drivers/index.md
+      - Memperbaiki Windows Boot Loop: windows/boot-loop/index.md
       - Troubleshooting Proyektor: projector/index.md
 
   - Printer:

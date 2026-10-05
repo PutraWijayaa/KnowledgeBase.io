@@ -1,0 +1,13 @@
+    1. Install MkDocs Material
+    python -m pip install mkdocs-material
+
+    Tunggu sampai selesai.
+
+    2. Cek instalasi
+    python -m mkdocs --version
+
+    Kalau berhasil, akan muncul versi MkDocs, misalnya:
+    mkdocs version 1.x.x
+    
+    3. Jalankan server
+    python -m mkdocs serve

@@ -24,9 +24,11 @@ Panduan singkat untuk membantu Anda menggunakan perangkat dan layanan IT di ling
 
 ### Hard disk dan penyimpanan
 
-Kenali HDD dan SSD, periksa ruang penyimpanan, dan pelajari langkah awal yang aman saat drive bermasalah.
+Kenali HDD dan SSD, periksa ruang penyimpanan, dan ikuti langkah mengatasi BIOS yang tidak mendeteksi drive.
 
 [Buka panduan](hardisk/index.md){ .btn .btn-outline-primary }
+
+[Atasi BIOS tidak mendeteksi drive](hardisk/bios-not-detecting-drive/index.md){ .btn .btn-outline-secondary }
 
 </div>
 </div>
@@ -59,6 +61,22 @@ Atasi perangkat yang tidak terdeteksi dengan Device Manager, Windows Update, Har
 Atasi proyektor yang tidak tampil atau tidak terdeteksi dengan memeriksa mode layar, resolusi, display adapter, dan koneksi dari sisi komputer Windows.
 
 [Buka panduan](projector/index.md){ .btn .btn-outline-primary }
+
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6" markdown>
+
+<div class="card kb-topic-card" markdown>
+
+<div class="card-body" markdown>
+
+### Windows boot loop
+
+Pulihkan Windows yang terus memulai ulang dengan WinRE, Startup Repair, pemeriksaan file sistem, pemulihan update, hingga reset sebagai langkah terakhir.
+
+[Buka panduan](windows/boot-loop/index.md){ .btn .btn-outline-primary }
 
 </div>
 </div>
@@ -112,21 +130,3 @@ Telusuri gangguan dari status koneksi, driver, kabel dan port, hingga pengaturan
 </div>
 </div>
 </div>
-
-!!! question "Butuh bantuan lebih lanjut?"
-    Jika panduan ini belum menyelesaikan masalah, hubungi tim IT sekolah. Sertakan nama perangkat, pesan kesalahan, dan langkah yang sudah dicoba.
-
-
-    1. Install MkDocs Material
-    python -m pip install mkdocs-material
-
-    Tunggu sampai selesai.
-
-    2. Cek instalasi
-    python -m mkdocs --version
-
-    Kalau berhasil, akan muncul versi MkDocs, misalnya:
-    mkdocs version 1.x.x
-    
-    3. Jalankan server
-    python -m mkdocs serve
