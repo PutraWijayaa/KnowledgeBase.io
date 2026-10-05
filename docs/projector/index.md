@@ -3,22 +3,11 @@
 Jika proyektor tidak menampilkan gambar atau tidak terdeteksi oleh komputer/laptop, ikuti pemeriksaan berikut dari sisi komputer secara berurutan. Nama menu dapat sedikit berbeda menurut versi Windows dan bahasa sistem.
 
 <div class="image-card">
-    <img src="../assets/Knowledgebase%20IT/upload/Panduan%20Troubleshooting%20Proyektor%20Windows.png" alt="Infografik troubleshooting proyektor dari komputer Windows: mode tampilan, resolusi, display adapter, kabel VGA, dan pemeriksaan lanjutan">
+    <img src="../assets/Knowledgebase%20IT/upload/Panduan%20Troubleshooting%20Proyektor%20Windows.png" alt="Infografik troubleshooting proyektor dari komputer Windows: mode tampilan, resolusi, display adapter, kabel VGA, dan pemeriksaan lanjutan" width="100%">
 </div>
 
 !!! note "Tipe proyektor dapat berbeda"
-    Gambar menampilkan contoh proyektor dan konektor tertentu. Langkah di panduan ini berfokus pada komputer Windows, sehingga dapat digunakan sebagai pemeriksaan awal untuk berbagai merek dan tipe proyektor. Nama port, kabel, resolusi yang didukung, menu, dan indikator proyektor tidak selalu sama. Ikuti spesifikasi perangkat dan kebijakan tim IT.
-
-!!! warning "Jangan mengubah perangkat atau pengaturan yang dikelola tanpa izin"
-    Jangan membuka casing komputer/proyektor, memaksa konektor, mengubah pengaturan administrator, atau memasang driver dari sumber tidak resmi. Jika perangkat dikelola sekolah/kantor, hubungi tim IT saat memerlukan izin administrator.
-
-## Sebelum mulai
-
-1. Simpan pekerjaan yang sedang terbuka.
-2. Pastikan kabel video yang digunakan (misalnya HDMI, VGA, USB-C dengan dukungan video, atau adaptor) terhubung ke komputer dengan benar dan tidak tampak rusak.
-3. Jika menggunakan adaptor atau docking station, pastikan terpasang dengan kuat dan kompatibel dengan komputer.
-4. Minta operator memastikan proyektor menyala dan menggunakan sumber/input yang sesuai dengan kabel. Karena menu tiap tipe berbeda, ikuti petunjuk perangkat atau minta bantuan operator; panduan ini tidak mengubah pengaturan pada proyektor.
-5. Jika ada kabel/adaptor pengganti yang diketahui berfungsi dan diizinkan, siapkan untuk pengujian.
+    Gambar menampilkan contoh proyektor dan konektor tertentu. Langkah di panduan ini berfokus pada komputer Windows, sehingga dapat digunakan sebagai pemeriksaan awal untuk berbagai merek dan tipe proyektor. Nama port, kabel, resolusi yang didukung, menu, dan indikator proyektor tidak selalu sama.
 
 ## 1. Pilih mode tampilan Windows
 
@@ -104,12 +93,3 @@ Jangan menyimpulkan proyektor rusak hanya dari satu kali pengujian. Koneksi, ada
 - Hubungi tim IT jika driver memerlukan pembaruan, port tampak rusak, layar tidak terdeteksi di beberapa perangkat, atau diperlukan izin administrator.
 
 Saat meminta bantuan, sertakan model komputer, versi Windows jika diketahui, jenis kabel/adaptor, mode **Windows + P** yang dicoba, hasil **Detect**, pesan kesalahan, dan hasil pengujian dengan layar/kabel lain.
-
-## Ringkasan cepat
-
-1. Pastikan komputer tersambung dengan kabel video/adaptor yang sesuai.
-2. Tekan **Windows + P** dan coba **Duplicate**.
-3. Periksa **Display settings**, deteksi layar kedua, dan pilih resolusi yang didukung.
-4. Periksa **Display adapters** di Device Manager; jangan menghapus atau menonaktifkan driver sembarangan.
-5. Periksa konektor dan port dari sisi komputer.
-6. Uji menggunakan perangkat/kabel lain jika tersedia, lalu hubungi tim IT dengan hasil pemeriksaan.
