@@ -57,6 +57,7 @@ nav:
   - Windows:
       - Memasang Driver yang Hilang: drivers/index.md
       - Memperbaiki Windows Boot Loop: windows/boot-loop/index.md
+      - Membuat Windows 11 Lebih Lancar: windows/performance/index.md
       - Troubleshooting Proyektor: projector/index.md
 
   - Printer:

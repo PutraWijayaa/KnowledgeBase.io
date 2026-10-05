@@ -1,36 +1,54 @@
-# Cara Memasang Driver yang Hilang di Windows
+# Mengatasi Masalah dan Memperbarui Driver Windows
 
-Driver membantu Windows mengenali dan menggunakan perangkat seperti Wi-Fi, audio, Bluetooth, USB, dan kartu grafis. Jika perangkat tidak terdeteksi, memiliki tanda seru kuning, atau tidak berfungsi dengan benar, ikuti langkah-langkah berikut secara berurutan.
+Driver membantu Windows mengenali dan menggunakan perangkat seperti kartu grafis, Wi-Fi/LAN, chipset, audio, Bluetooth, dan penyimpanan. Jika perangkat tidak terdeteksi, kinerjanya menurun, muncul pesan kesalahan, atau berhenti berfungsi setelah pembaruan, ikuti pemeriksaan berikut.
 
 <div class="image-card">
-    <img src="../assets/Knowledgebase%20IT/upload/Panduan%20Memasang%20Driver%20Hilang%20di%20Windows.png" alt="Infografik lima metode memasang driver yang hilang di Windows dan jenis driver untuk masalah umum">
+    <img src="../assets/Knowledgebase%20IT/upload/Masalah%20dan%20Pembaruan%20Driver.png" alt="Infografik masalah driver dan langkah memperbarui driver Windows melalui Device Manager">
 </div>
 
 !!! warning "Unduh driver dengan aman"
-    Gunakan Windows Update atau situs resmi produsen perangkat. Hindari aplikasi pembaruan driver dan situs unduhan pihak ketiga yang tidak tepercaya. Driver yang salah dapat menyebabkan perangkat tidak berfungsi atau membuat Windows tidak stabil.
+    Gunakan Windows Update atau situs resmi produsen komputer/perangkat. Hindari aplikasi pembaru driver dan situs unduhan pihak ketiga yang tidak tepercaya. Driver yang salah atau tidak kompatibel dapat membuat perangkat tidak berfungsi atau Windows tidak stabil.
+
+## Gejala masalah driver
+
+- Perangkat tidak muncul atau tampil sebagai **Unknown device / Perangkat tidak dikenal** di Device Manager.
+- Ada tanda seru kuning atau kode kesalahan pada perangkat.
+- Wi-Fi, suara, Bluetooth, grafis, atau penyimpanan tidak bekerja seperti biasanya.
+- Masalah muncul setelah pembaruan Windows, pemasangan perangkat, atau pembaruan driver.
+
+Driver yang umumnya diperiksa sesuai gejalanya:
+
+| Gejala | Driver yang perlu diperiksa |
+| --- | --- |
+| Tampilan, grafis, atau resolusi bermasalah | Graphics / Display adapter |
+| Wi-Fi atau LAN tidak terhubung | Network / Wi-Fi / LAN |
+| USB atau perangkat motherboard tidak dikenali | Chipset atau USB |
+| Tidak ada suara | Audio |
+| Bluetooth tidak tersedia | Bluetooth |
+| Drive penyimpanan tidak dikenali Windows | Storage / SATA / NVMe |
+
+## 1. Perbarui driver melalui Device Manager
+
+1. Simpan pekerjaan yang terbuka dan sambungkan komputer ke internet jika diperlukan.
+2. Tekan **Windows + X**, lalu pilih **Device Manager / Pengelola Perangkat**.
+3. Buka kategori perangkat yang bermasalah. Cari perangkat bertanda seru atau **Unknown device / Perangkat tidak dikenal**.
+4. Klik kanan perangkat tersebut, lalu pilih **Update driver / Perbarui driver**.
+5. Pilih **Search automatically for drivers / Cari driver secara otomatis**.
+6. Jika Windows menemukan driver, ikuti instruksi hingga instalasi selesai.
+7. Mulai ulang komputer jika diminta, lalu uji kembali perangkat.
+
+Pencarian otomatis hanya memeriksa sumber yang tersedia bagi Windows dan tidak selalu menemukan driver terbaru atau khusus dari produsen. Jika Windows menyatakan driver terbaik sudah terpasang tetapi masalah berlanjut, lanjutkan ke Windows Update atau situs resmi produsen.
 
 ## Sebelum mulai
 
 1. Simpan pekerjaan yang sedang terbuka.
 2. Jika memungkinkan, sambungkan komputer ke internet. Untuk mengatasi Wi-Fi yang tidak berfungsi, gunakan kabel LAN atau tethering USB dari ponsel jika diizinkan oleh kebijakan sekolah.
 3. Catat nama dan model laptop atau komputer. Pada laptop, utamakan driver dari produsen laptop karena driver dapat disesuaikan dengan perangkat tersebut.
-4. Buka **Device Manager** dengan menekan **Windows + X**, lalu pilih **Device Manager** atau **Pengelola Perangkat**.
-5. Cari perangkat yang bermasalah. Perangkat bisa berada di kategori yang sesuai atau muncul sebagai **Unknown device** di bagian **Other devices**. Tanda seru kuning biasanya menunjukkan ada masalah yang perlu diperiksa.
+4. Jika komputer meminta hak administrator, jangan mencoba melewati pembatasan. Minta tim IT memasang driver.
 
 Nama menu mungkin sedikit berbeda antara Windows 10, Windows 11, dan bahasa sistem yang digunakan.
 
-## Metode 1: Periksa dan perbarui melalui Device Manager
-
-1. Di **Device Manager**, klik kanan perangkat yang bermasalah.
-2. Pilih **Update driver** atau **Perbarui driver**.
-3. Pilih **Search automatically for drivers** atau **Cari driver secara otomatis**.
-4. Ikuti petunjuk Windows. Jika driver ditemukan, tunggu pemasangan selesai.
-5. Mulai ulang komputer jika diminta, lalu periksa kembali perangkat tersebut.
-6. Jika Windows menyatakan driver terbaik sudah terpasang tetapi perangkat masih bermasalah, lanjutkan ke Windows Update atau cari driver berdasarkan model perangkat.
-
-Pencarian otomatis tidak selalu menemukan driver terbaru atau driver khusus dari produsen. Pesan tersebut tidak memastikan bahwa semua masalah perangkat sudah selesai.
-
-## Metode 2: Periksa driver di Windows Update
+## 2. Periksa driver di Windows Update
 
 1. Buka **Settings / Pengaturan**.
 2. Pilih **Windows Update**.
@@ -41,7 +59,7 @@ Pencarian otomatis tidak selalu menemukan driver terbaru atau driver khusus dari
 
 Tidak semua komputer akan menampilkan pembaruan driver opsional. Jika tidak ada pembaruan yang sesuai, lanjutkan ke metode berikutnya.
 
-## Metode 3: Identifikasi perangkat menggunakan Hardware ID
+## 3. Identifikasi perangkat menggunakan Hardware ID
 
 Gunakan cara ini bila nama perangkat tidak diketahui atau ditampilkan sebagai **Unknown device**.
 
@@ -54,10 +72,10 @@ Gunakan cara ini bila nama perangkat tidak diketahui atau ditampilkan sebagai **
 
 Jangan mengunggah Hardware ID, nomor seri, atau informasi perangkat sekolah ke forum publik. Bila hasil pencarian tidak jelas, minta bantuan tim IT daripada mencoba driver yang tampak mirip.
 
-## Metode 4: Unduh driver dari situs resmi produsen
+## 4. Unduh driver dari situs resmi produsen
 
 1. Buka halaman dukungan resmi produsen laptop atau komputer dan cari menggunakan **model perangkat**. Untuk perangkat rakitan, gunakan situs resmi produsen komponen yang tepat.
-2. Pilih sistem operasi dan versi Windows yang benar. Jangan memasang driver untuk model atau versi Windows yang berbeda.
+2. Periksa versi Windows dan tipe sistem di **Settings > System > About / Pengaturan > Sistem > Tentang**. Pilih sistem operasi dan arsitektur yang sesuai (misalnya 64-bit); jangan memasang driver untuk model atau versi Windows yang berbeda.
 3. Unduh hanya driver yang diperlukan. Beberapa contoh:
 
    | Gejala | Driver yang mungkin diperlukan |
@@ -74,9 +92,19 @@ Jangan mengunggah Hardware ID, nomor seri, atau informasi perangkat sekolah ke f
 
 Jangan menonaktifkan antivirus, menjalankan file dari situs yang tidak dikenal, atau memasang beberapa driver yang tidak berkaitan sekaligus. Jika komputer dikelola sekolah dan meminta izin administrator, hubungi tim IT.
 
-## Metode 5: Pindai perangkat melalui Command Prompt
+## 5. Periksa kembali perangkat setelah pembaruan
 
-Langkah ini bersifat pilihan dan hanya untuk pemeriksaan ulang perangkat. Perintah berikut tidak mengunduh atau memasang driver.
+1. Mulai ulang komputer jika belum dilakukan.
+2. Buka kembali **Device Manager** dan pastikan perangkat muncul tanpa tanda peringatan.
+3. Uji fungsi yang bermasalah, seperti suara, koneksi Wi-Fi, Bluetooth, atau tampilan eksternal.
+4. Jika masalah baru muncul setelah pembaruan driver, di **Device Manager** klik kanan perangkat, pilih **Properties / Properti > Driver > Roll Back Driver / Kembalikan Driver** jika tersedia.
+5. Ikuti instruksi, mulai ulang komputer, lalu uji kembali. Jika opsi tidak tersedia atau memerlukan izin administrator, hubungi tim IT.
+
+Jangan menghapus atau menonaktifkan perangkat sebagai percobaan. Jika Windows tidak dapat dijalankan normal setelah pembaruan, minta bantuan tim IT untuk pemulihan.
+
+## Pemeriksaan ulang perangkat melalui Command Prompt
+
+Langkah pilihan ini meminta Windows memindai ulang perangkat dan menampilkan paket driver yang telah terpasang; langkah ini tidak mengunduh atau memasang driver.
 
 1. Cari **Command Prompt** dari menu Start.
 2. Pilih **Run as administrator / Jalankan sebagai administrator** jika tersedia dan diizinkan.
@@ -94,7 +122,7 @@ Langkah ini bersifat pilihan dan hanya untuk pemeriksaan ulang perangkat. Perint
 - **Perangkat masih bertanda seru atau tidak dikenal:** pastikan model komputer dan Hardware ID sudah cocok, lalu periksa kembali halaman dukungan resmi produsen.
 - **Windows tidak menemukan driver:** coba **Pembaruan opsional**. Jika tidak tersedia, unduh driver yang tepat dari situs resmi produsen.
 - **Pemasangan gagal:** mulai ulang komputer satu kali, pastikan file sesuai dengan model dan versi Windows, lalu ikuti kembali petunjuk resmi produsen. Jangan memaksa pemasangan driver yang tidak cocok.
-- **Masalah muncul setelah pembaruan:** di **Device Manager**, buka **Properties > Driver** dan periksa apakah **Roll Back Driver / Kembalikan Driver** tersedia. Gunakan hanya jika opsi tersebut tersedia dan Anda berwenang; jika ragu, hubungi tim IT.
+- **Masalah muncul setelah pembaruan:** gunakan **Roll Back Driver / Kembalikan Driver** jika tersedia dan Anda berwenang.
 - **Tidak ada koneksi internet:** gunakan koneksi kabel atau tethering yang diizinkan, atau minta tim IT membantu mengunduh driver dari komputer lain melalui sumber resmi.
 - **Komputer meminta kata sandi administrator atau menolak pemasangan:** jangan mencoba melewati pembatasan. Minta bantuan tim IT.
 

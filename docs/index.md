@@ -1,5 +1,3 @@
-# IT Knowledge Base
-
 <div class="kb-hero" markdown>
 
 <p class="kb-eyebrow">PUSAT PANDUAN TEKNOLOGI</p>
@@ -28,8 +26,6 @@ Kenali HDD dan SSD, periksa ruang penyimpanan, dan ikuti langkah mengatasi BIOS 
 
 [Buka panduan](hardisk/index.md){ .btn .btn-outline-primary }
 
-[Atasi BIOS tidak mendeteksi drive](hardisk/bios-not-detecting-drive/index.md){ .btn .btn-outline-secondary }
-
 </div>
 </div>
 </div>
@@ -42,7 +38,7 @@ Kenali HDD dan SSD, periksa ruang penyimpanan, dan ikuti langkah mengatasi BIOS 
 
 ### Driver Windows
 
-Atasi perangkat yang tidak terdeteksi dengan Device Manager, Windows Update, Hardware ID, situs resmi produsen, atau Command Prompt.
+Atasi driver hilang, usang, rusak, atau tidak kompatibel dengan Device Manager, Windows Update, dan driver resmi produsen.
 
 [Buka panduan](drivers/index.md){ .btn .btn-outline-primary }
 
@@ -77,6 +73,22 @@ Atasi proyektor yang tidak tampil atau tidak terdeteksi dengan memeriksa mode la
 Pulihkan Windows yang terus memulai ulang dengan WinRE, Startup Repair, pemeriksaan file sistem, pemulihan update, hingga reset sebagai langkah terakhir.
 
 [Buka panduan](windows/boot-loop/index.md){ .btn .btn-outline-primary }
+
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6" markdown>
+
+<div class="card kb-topic-card" markdown>
+
+<div class="card-body" markdown>
+
+### Windows 11 lebih lancar
+
+Atasi komputer Windows 11 yang terasa lambat dengan mengelola aplikasi startup, membersihkan penyimpanan, memperbarui sistem, memindai keamanan, dan mengoptimalkan drive.
+
+[Buka panduan](windows/performance/index.md){ .btn .btn-outline-primary }
 
 </div>
 </div>
